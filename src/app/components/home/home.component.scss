@@ -1,0 +1,74 @@
+.page {
+    //background-color: 'black';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.title{
+    text-align: center;
+    //font-size: 1.5rem;
+}
+
+.grid{
+    width: 80vw;
+    max-width: 600px;
+    height: 80vw;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    font-family: 'Gochi Hand', cursive;
+    //flex-basis: 600px;
+}
+
+.cell{
+    font-family: 'Gochi Hand', cursive;
+    flex-basis: 33%;
+    align-self: center;
+    //width: 100px;
+    height: 33%;
+    padding: 0;
+    border: 3px solid black;
+    border-bottom-width: 0px;
+    border-radius: 5px;
+    font-size: 8rem;
+    cursor: pointer;
+    //margin: 2px;
+    //flex-grow: 30%;
+}
+
+button:disabled {
+    color: black;
+    cursor: not-allowed;
+}
+
+.winMsg{
+    text-align: center;
+    //font-family: 'Gochi Hand', cursive;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(150,40,27,0.9);
+    padding: 4vw 8vw;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.reset{
+    //font-size: 1.5rem;
+    border-radius: 100px;
+    padding: 8px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.material-icons{
+    text-align: center;
+}

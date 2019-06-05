@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Roboto+Condensed&display=swap');
+
+body{
+    margin: 0;
+    height: 100%;
+    //width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Roboto Condensed','Gochi Hand', sans-serif;
+    
+}
+
+
