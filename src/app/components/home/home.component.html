@@ -4,8 +4,8 @@
     <button [disabled]="i !== '' || game.winner !== ''" class="cell" *ngFor="let i of game.data, let in = index" (click)="game.putInCell(in)">{{i}}</button>
   </div>
   <div class="winMsg" *ngIf="game.winner !== ''">
-    {{game.winner}}
-  <br>
+    <h2>{{game.winner}}</h2>
+  
   <button class="reset" (click)="game.reset()">
     <i class="material-icons">refresh</i>
   </button>

@@ -36,7 +36,7 @@
     border: 3px solid black;
     border-bottom-width: 0px;
     border-radius: 5px;
-    font-size: 8rem;
+    font-size: 15vw;
     cursor: pointer;
     //margin: 2px;
     //flex-grow: 30%;
@@ -50,13 +50,13 @@ button:disabled {
 .winMsg{
     text-align: center;
     //font-family: 'Gochi Hand', cursive;
-    font-size: 5rem;
+    font-size: 24px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(150,40,27,0.9);
-    padding: 4vw 8vw;
+    padding: 16px 25px;
     border-radius: 10px;
     white-space: nowrap;
 }
@@ -72,3 +72,10 @@ button:disabled {
 .material-icons{
     text-align: center;
 }
+
+
+@media screen and (min-width: 800px) {
+    .cell {
+       font-size: 80px;
+    }
+  }
