@@ -28,16 +28,17 @@
 
 .cell{
     font-family: 'Gochi Hand', cursive;
-    flex-basis: 33%;
+    flex-basis: 32%;
     align-self: center;
     //width: 100px;
-    height: 33%;
+    height: 32%;
     padding: 0;
-    border: 3px solid black;
+    border: 6px solid black;
     border-bottom-width: 0px;
     border-radius: 5px;
     font-size: 15vw;
     cursor: pointer;
+    background-color: white
     //margin: 2px;
     //flex-grow: 30%;
 }
@@ -66,6 +67,7 @@ button:disabled {
     border-radius: 100px;
     padding: 8px 10px;
     text-align: center;
+    background-color: white;
     cursor: pointer;
 }
 
