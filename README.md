@@ -2,9 +2,9 @@
 
 Simple Tic Tac Toe game for 2 users
 
-You can see the finall result [here](https://elelad.github.io/TicTacToe/home)
+You can see the finall result [here](https://elelad.github.io/TicTacToe/)
 
 ## Install
-- Clone or downlad
+- Clone or download
 - Run `npm install`
 - Run `ng serve`
